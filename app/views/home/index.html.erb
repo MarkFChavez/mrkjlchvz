@@ -1,3 +1,7 @@
+<%= content_for :title do %>
+	Mark Chavez | Ruby on Rails Developer
+<% end %>
+
 <div class="row">
 	<div class="large-12 columns">
 		<h1>
@@ -92,6 +96,23 @@
 	</div>
 
 	<hr />
+
+	<div class="large-12 columns">
+		<div class="large-3 columns">
+			<h4 class="subheader">
+				Works/Projects
+			</h4>
+		</div>
+
+		<div class="large-9 columns">
+			<ul>
+				<li> <%= link_to "NDC Dashboard", "http://dashboard.ndc.gov.ph:8080" %>, business strategic dashbaord for their different departments. </li>
+				<li> <%= link_to "Different Globe projects", "https://www.globe.com.ph" %> </li>
+			</ul>
+		</div>
+	</div>
+
+	<hr />
 	
 	<div class="large-12 columns">
 		<div class="large-3 columns">
@@ -107,6 +128,15 @@
 	
 </div>
 
-<div class="row">
-	
+<hr />
+
+<div id="footer" style="padding:10px">
+	<p style="float:right">
+		Let's talk!
+		<%= link_to "facebook", "https://www.facebook.com/mrkjlchvz", target:"_blank" %> |
+		<%= link_to "twitter", "https://twitter.com/mrkjlchvz", target:"_blank" %> |
+		<%= link_to "github", 'https://github.com/mrkjlchvz', target:"_blank" %> |
+		<%= link_to "linkedin", "http://ph.linkedin.com/pub/mark-chavez/33/2ab/5aa", target:"_blank" %> |
+		<%= link_to "g+", "https://plus.google.com/u/0/102781608950487459252", target:"_blank" %>
+	</p>
 </div>
